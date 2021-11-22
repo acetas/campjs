@@ -17,5 +17,9 @@ userService.getById(1)
 userService.list()
 
 console.log(userService.list());
-console.log(userService.getById(2).firstName);
+//console.log(userService.getById(2).firstName);
 
+console.log("-------------------");
+userService.load();
+console.log(userService.customers);
+console.log(userService.employees);
