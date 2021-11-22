@@ -23,3 +23,4 @@ console.log("-------------------");
 userService.load();
 console.log(userService.customers);
 console.log(userService.employees);
+console.log(userService.errors);
