@@ -3,7 +3,16 @@ export const users = [
         id:1,
         firstName:"Engin",
         lastName:"Demiroğ",
-        //city:"Ankara",
+        city:"Ankara",
+        age:"36",
+        creditCardNumber:"123456",
+        type:"customer"
+    },
+    {
+        id:6,
+        firstName:"Beytullah",
+        lastName:"Zor",
+        city:"Ankara",
         age:"36",
         creditCardNumber:"123456",
         type:"customer"
@@ -13,7 +22,7 @@ export const users = [
         firstName:"Mustafa",
         lastName:"Sansar",
         city:"İstanbul",
-        age:"a21",
+        age:"21",
         creditCardNumber:"654321",
         type:"customer"
     },
@@ -22,7 +31,7 @@ export const users = [
         firstName:"Cansu",
         lastName:"Değirmen",
         city:"İstanbul",
-        //age:"20",
+        age:"20",
         salary:8000,
         type:"employee"
     },
@@ -32,7 +41,7 @@ export const users = [
         lastName:"Kaya",
         city:"Bolu",
         age:"21",
-        //salary:8500,
+        salary:17000,
         type:"employee"
     },
     {
@@ -42,6 +51,6 @@ export const users = [
         city:"Diyarbakır",
         age:"21",
         salary:15000,
-        type:"employe"
+        type:"employee"
     }
 ]
